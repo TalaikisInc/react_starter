@@ -7,9 +7,9 @@ const Head = Async(() => import('components/Head'))
 const Home = () => (
   <div>
     <Head title="Home" />
-    <div>
+    <h1 className='title'>
       Yo, there!
-    </div>
+    </h1>
   </div>
 )
 

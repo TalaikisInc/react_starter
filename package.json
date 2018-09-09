@@ -2,6 +2,7 @@
   "name": "react_starter",
   "version": "0.1.0",
   "private": true,
+  "author": "Tadas Talaikis <info@talaikis.com>",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
@@ -15,6 +16,8 @@
     "react": "^16.5.0",
     "react-apollo": "^2.1.11",
     "react-dom": "^16.5.0",
+    "react-emotion": "^9.2.8",
+    "react-ga": "^2.5.3",
     "react-helmet": "^5.2.0",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
@@ -28,11 +31,17 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "jest",
+    "test:debug": "NODE_ENV=debug npm test"
   },
   "devDependencies": {
     "eslint": "^5.5.0",
-    "jest": "^23.5.0"
-  }
+    "eslint-plugin-graphql": "^2.1.1",
+    "faker": "^4.1.0",
+    "gremlins.js": "^0.1.0",
+    "jest": "^23.5.0",
+    "puppeteer": "^1.8.0",
+    "react-addons-test-utils": "^15.6.2"
+  },
+  "license": "MIT"
 }

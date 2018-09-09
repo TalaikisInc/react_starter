@@ -1,0 +1,6 @@
+export const LoaderColor = '#123abc'
+export const SiteTitle = 'ExampleSite'
+export const SiteUrl = 'https://blueblood.ltd'
+export const API_URL = process.env.NODE_ENV === 'production' 
+  ? 'https://api.blueblood.ltd'
+  : 'http://localhost:8080'

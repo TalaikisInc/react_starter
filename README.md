@@ -2,6 +2,8 @@
 
 ## Status and purpose
 
+-- In development, don't use, wouldnt work.
+
 Goal is to create fully featured starter with templating, API, user management and more.
 
 ## Features

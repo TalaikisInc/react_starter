@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import ReactGA from 'react-ga'
 
 import * as actions from 'actions'
+import { HandleProgressBar } from 'compoennts/ProgressBar'
 import Async from 'components/Async'
 import env from 'env'
 ReactGA.initialize(env.GA)
@@ -25,6 +26,7 @@ class App extends PureComponent {
         <div>
           <BrowserRouter onUpdate={this.pageviewTracking} forceRefresh={!supportsHistory}>
             <div>
+              <HandleProgressBar />
               <Header />
               <Switch>
                 <Route exact strict sensitive path='/' component={Home} />

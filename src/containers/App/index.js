@@ -13,6 +13,7 @@ const supportsHistory = 'pushState' in window.history
 const Home = Async(() => import('containers/Home'))
 const Header = Async(() => import('components/Header'))
 const Footer = Async(() => import('components/Footer'))
+const ErrorBoundary = Async(() => import('components/ErrorBoundary'))
 
 class App extends PureComponent {
   pageviewTracking() {
@@ -22,7 +23,7 @@ class App extends PureComponent {
 
   render() {
     return (
-      <div>
+      <ErrorBoundary>
         <div>
           <BrowserRouter onUpdate={this.pageviewTracking} forceRefresh={!supportsHistory}>
             <div>
@@ -35,7 +36,7 @@ class App extends PureComponent {
           </BrowserRouter>
         </div>
         <Footer />
-      </div>
+      </ErrorBoundary>
     )
   }
 }

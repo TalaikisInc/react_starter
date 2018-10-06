@@ -2,7 +2,7 @@
 
 ## Status and purpose
 
--- In development, don't use, wouldnt work.
+-- In development, don't use, wouldn't work.
 
 Goal is to create fully featured starter with templating, API, user management and more.
 
@@ -18,7 +18,7 @@ Goal is to create fully featured starter with templating, API, user management a
 
 ## API
 
-Visit ...
+[react_starter_api](https://github.com/TalaikisInc/react_starter_api)
 
 ## Start Fronend
 

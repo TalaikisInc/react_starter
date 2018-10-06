@@ -13,11 +13,13 @@
     "emotion": "^9.2.8",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.9.2",
+    "grid-emotion": "^3.2.0",
+    "polished": "^2.1.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.0",
     "react-apollo": "^2.1.11",
     "react-dom": "^16.5.0",
-    "react-emotion": "^9.2.8",
+    "react-emotion": "^9.2.10",
     "react-ga": "^2.5.3",
     "react-helmet": "^5.2.0",
     "react-redux": "^5.0.7",
@@ -45,5 +47,15 @@
     "puppeteer": "^1.8.0",
     "react-addons-test-utils": "^15.6.2"
   },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0",
+    "yarn": "^1.9.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "license": "MIT"
 }
